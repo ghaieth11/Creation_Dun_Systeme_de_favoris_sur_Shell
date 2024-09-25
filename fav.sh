@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FAV="$HOME/Projet_Linux/.fav_bash"
+FAV="$HOME/Creation_Dun_Systeme_de_favoris_sur_Shell/.fav_bash"
 
 # Fonction pour enregistrer un nouveau favori
 function S() {
@@ -75,7 +75,7 @@ case "$1" in
         read -p "  - Si vous voulez plus d'informations, tapez h : 
   - Taper sur toute autre touche pour utiliser le programme : " mot
         if [ "$mot" = "h" ]; then #on affiche le README pour faciliter la compréhension à l'utilisateur 
-            cat "$HOME/Projet_Linux/INSTALL/README"
+            cat "$HOME/Creation_Dun_Systeme_de_favoris_sur_Shell/INSTALL/README"
         fi
         ;;
 esac
